@@ -21,22 +21,22 @@
 
 <section>
 <h1>SatConnect Guardian – Privacy Policy</h1>
-<p class="muted">Last updated: 23 November 2026 · Developer: MonteCarlo News24 (Amman, Jordan) · Contact: <a href="mailto:montecarlo.news24@gmail.com">montecarlo.news24@gmail.com</a></p>
+<p class="muted">Last updated: 24 November 2026 · Developer: MonteCarlo News24 (Amman, Jordan) · Contact: <a href="mailto:montecarlo.news24@gmail.com">montecarlo.news24@gmail.com</a></p>
 
 <p>SatConnect Guardian is a personal safety app for people travelling in remote areas. This policy explains what data the app uses, where it is stored and the choices you have. We do not sell your data and we do not show ads.</p>
 
 <h2>1. Data stored only on your phone</h2>
 <ul>
-  <li><b>Medical profile</b> (blood type, allergies, conditions, medications, short SOS summary) and <b>up to 3 emergency contact numbers</b>. These are encrypted on your device with AES-256 (Android Keystore) and are never uploaded unless you take one of the actions in section 2.</li>
+  <li><b>Up to 3 emergency contact numbers.</b> These are encrypted on your device with AES-256 (Android Keystore) and are never uploaded unless you take one of the actions in section 2.</li>
   <li><b>Satellite pass times</b> for the sky compass, cached locally so the compass works offline.</li>
   <li><b>Trip settings</b> (destination, return time) and your AI safety checklist.</li>
 </ul>
 
 <h2>2. Data that leaves your phone, only when you act</h2>
 <ul>
-  <li><b>SOS message:</b> when you hold the SOS button, the app prepares a text with your GPS position, battery level, time and short medical summary, and opens your messaging app. You choose whether to send it, and it goes only to the contacts you selected.</li>
+  <li><b>SOS message:</b> when you hold the SOS button, the app prepares a text with your GPS position, battery level and time, and opens your messaging app. You choose whether to send it, and it goes only to the contacts you selected.</li>
   <li><b>Trip plan (Google Firebase):</b> when you start a trip, your destination, activity, planned return time, last known position and emergency contact numbers are stored in Google Cloud Firestore under an anonymous account ID, so the plan survives if you lose coverage. If you send an SOS during an active trip, your position and SOS status are added. Only your anonymous account can read or write this record.</li>
-  <li><b>AI features (Google Gemini):</b> your medical details are sent to the Google Gemini API only when you tap “Summarize with AI”; your activity, destination and trip length only when you tap “Generate checklist”.</li>
+  <li><b>AI checklist (Google Gemini):</b> your activity, destination and trip length are sent to the Google Gemini API only when you tap “Generate checklist”.</li>
   <li><b>Sky compass (N2YO.com):</b> your position, rounded to about 1 km, is sent to N2YO to calculate satellite passes when you tap “Download passes”.</li>
 </ul>
 
@@ -56,7 +56,7 @@
 </ul>
 
 <h2>5. Retention and deletion</h2>
-<p>You can delete everything at any time in <b>Settings → Delete all my data</b>. This erases the medical profile, contacts, trip plan and cached passes on the phone, deletes your cloud trip record and removes the anonymous account. Uninstalling the app also removes all data stored on the phone. You can also email us to ask for deletion.</p>
+<p>You can delete everything at any time in <b>Settings → Delete all my data</b>. This erases your emergency contacts, trip plan and cached passes on the phone, deletes your cloud trip record and removes the anonymous account. Uninstalling the app also removes all data stored on the phone. You can also email us to ask for deletion.</p>
 
 <h2>6. Your rights</h2>
 <p>In line with data-protection laws such as the EU GDPR and Jordan’s Personal Data Protection Law (No. 24 of 2023), you have the right to access, correct and delete your data and to withdraw consent. Contact <a href="mailto:montecarlo.news24@gmail.com">montecarlo.news24@gmail.com</a>.</p>
@@ -64,10 +64,13 @@
 <h2>7. Children</h2>
 <p>The app is not directed at children under 13 and we do not knowingly collect their data.</p>
 
-<h2>8. Important safety notice</h2>
+<h2>8. Health data</h2>
+<p>SatConnect Guardian does not collect health or medical information and does not provide medical advice. Versions before 1.2.0 offered an optional medical profile; it is deleted from the phone automatically when you update.</p>
+
+<h2>9. Important safety notice</h2>
 <p>SatConnect Guardian is a safety aid, not a replacement for emergency services or a dedicated satellite messenger. Satellite messaging depends on your phone model and carrier. Always call 112 / 911 when you can.</p>
 
-<h2>9. Changes</h2>
+<h2>10. Changes</h2>
 <p>We will update this page if the app changes how it uses data, and change the date at the top.</p>
 </section>
 
@@ -75,22 +78,22 @@
 
 <section class="ar" lang="ar">
 <h1>سياسة الخصوصية – SatConnect Guardian</h1>
-<p class="muted">آخر تحديث: 23 نوفمبر 2026 · المطوّر: MonteCarlo News24 (عمّان، الأردن) · للتواصل: <a href="mailto:montecarlo.news24@gmail.com">montecarlo.news24@gmail.com</a></p>
+<p class="muted">آخر تحديث: 24 نوفمبر 2026 · المطوّر: MonteCarlo News24 (عمّان، الأردن) · للتواصل: <a href="mailto:montecarlo.news24@gmail.com">montecarlo.news24@gmail.com</a></p>
 
 <p>SatConnect Guardian تطبيق للسلامة الشخصية للمسافرين في المناطق النائية. توضح هذه السياسة البيانات التي يستخدمها التطبيق وأين تُحفظ وما هي خياراتك. لا نبيع بياناتك ولا نعرض إعلانات.</p>
 
 <h2>1. بيانات تبقى على هاتفك فقط</h2>
 <ul>
-  <li><b>الملف الطبي</b> (فصيلة الدم، الحساسية، الحالات المرضية، الأدوية، الملخص القصير) و<b>حتى 3 أرقام طوارئ</b>، مشفّرة على جهازك بتقنية AES-256 ولا تُرفع إلا عند قيامك بأحد الإجراءات في البند 2.</li>
+  <li><b>حتى 3 أرقام طوارئ</b>، مشفّرة على جهازك بتقنية AES-256 ولا تُرفع إلا عند قيامك بأحد الإجراءات في البند 2.</li>
   <li><b>مواعيد مرور الأقمار الصناعية</b> محفوظة محلياً لتعمل البوصلة بدون إنترنت.</li>
   <li><b>إعدادات الرحلة</b> وقائمة السلامة.</li>
 </ul>
 
 <h2>2. بيانات تخرج من هاتفك عندما تطلب ذلك فقط</h2>
 <ul>
-  <li><b>رسالة الاستغاثة:</b> يجهّز التطبيق نصاً فيه موقعك ونسبة البطارية والوقت والملخص الطبي ويفتح تطبيق الرسائل، وأنت من يقرر الإرسال إلى جهات الاتصال التي اخترتها.</li>
+  <li><b>رسالة الاستغاثة:</b> يجهّز التطبيق نصاً فيه موقعك ونسبة البطارية والوقت ويفتح تطبيق الرسائل، وأنت من يقرر الإرسال إلى جهات الاتصال التي اخترتها.</li>
   <li><b>خطة الرحلة (Google Firebase):</b> عند بدء الرحلة تُحفظ الوجهة والنشاط وموعد العودة وآخر موقع وأرقام الطوارئ في Cloud Firestore تحت حساب مجهول الهوية، ولا يستطيع قراءتها إلا حسابك.</li>
-  <li><b>الذكاء الاصطناعي (Google Gemini):</b> تُرسل معلوماتك الطبية فقط عند الضغط على «تلخيص بالذكاء الاصطناعي»، وتفاصيل الرحلة فقط عند توليد قائمة السلامة.</li>
+  <li><b>قائمة السلامة (Google Gemini):</b> تُرسل تفاصيل الرحلة فقط عند توليد قائمة السلامة.</li>
   <li><b>بوصلة السماء (N2YO.com):</b> يُرسل موقعك مقرّباً لنحو 1 كم لحساب مرور الأقمار.</li>
 </ul>
 
@@ -103,7 +106,10 @@
 <h2>5. حقوقك</h2>
 <p>وفقاً لقوانين حماية البيانات مثل GDPR وقانون حماية البيانات الشخصية الأردني رقم 24 لسنة 2023، يحق لك الوصول إلى بياناتك وتصحيحها وحذفها وسحب موافقتك.</p>
 
-<h2>6. تنبيه مهم</h2>
+<h2>6. البيانات الصحية</h2>
+<p>لا يجمع التطبيق أي معلومات صحية أو طبية ولا يقدم نصائح طبية. الملف الطبي الاختياري في الإصدارات السابقة لـ 1.2.0 يُحذف من الهاتف تلقائياً عند التحديث.</p>
+
+<h2>7. تنبيه مهم</h2>
 <p>التطبيق أداة مساعدة للسلامة وليس بديلاً عن خدمات الطوارئ. اتصل دائماً بـ 112 / 911 عندما تستطيع.</p>
 </section>
 
